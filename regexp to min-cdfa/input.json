@@ -1,0 +1,13 @@
+{
+    "sigma": ["a", "b"],
+    "start": 0,
+    "states": [0, 1, 2, 3],
+    "final": [0, 3],
+    "delta": [
+        {"from": 0, "to": 1, "sym": "a"},
+        {"from": 0, "to": 2, "sym": "b"},
+        {"from": 0, "to": 3, "sym": "a"},
+        {"from": 1, "to": 0, "sym": "b"},
+        {"from": 2, "to": 0, "sym": "a"}
+    ]
+}
